@@ -1,0 +1,191 @@
+@font-face { 
+    font-family: 'AppleSDGothicNeoM'; 
+    src: url('../font/AppleSDGothicNeoM.ttf') format('truetype'),
+    url('../font/AppleSDGothicNeoM.ttf') format('opentype'); 
+}
+
+/* url('./neodgm_pro.woff') format('woff') */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AppleSDGothicNeoM';
+}
+
+body {
+    max-width: 768px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.wirelessCharger-wrap {
+    width: 95%;
+}
+
+.wirelessCharger-progress-bar {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    height: 11.33%;
+    margin: 0 auto;
+    background: #fff;
+    z-index: 1;
+}
+
+.progress-bar-container {
+    width: 90.6%;
+    height: 8px;
+    margin: 18.2% auto 5.9%;
+    background: #e6e6e6;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 8px;
+    background: #ffe600;
+}
+
+.wirelessCharger-logo {
+    margin: 48% auto 6.8%;
+    text-align: center;
+}
+
+.wirelessCharger-logo img {
+    width: 74px;
+}
+
+.wirelessCharger-intro h1{
+    padding: 35px 0;
+    text-align: center;
+}
+
+.wirelessCharger-intro__content__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 8.7% 0;
+}
+
+.wirelessCharger-intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wirelessCharger-intro__haedal img{
+    width: 100%;
+}
+
+.wirelessCharger-youtube {
+    margin-bottom: 25%;
+}
+
+.wirelessCharger-section {
+    /* margin-bottom: 55.11%; */
+    margin-bottom: 25%;
+}
+
+.wirelessCharger-subsection {
+    margin-top: 16%;
+}
+
+.wirelessCharger-subsection h3 {
+    margin-bottom: 5%;
+}
+
+.wirelessCharger-subsection ul, ol {
+    margin: 3% 7% 0;
+    /* color: red; */
+}
+
+.wirelessCharger-title {
+    margin-bottom: 10.6%;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+}
+
+.title-highlight {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 11px 0;
+    background: #ffe74b;
+    z-index: -1;
+}
+
+.wirelessCharger-content {
+    margin: 3% 1%;
+    color: #1e0600;
+    font-size: 14px;
+}
+
+.wirelessCharger-figures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40%;
+}
+
+.wirelessCharger-figures figcaption {
+    font-size: 15px;
+    text-align: center;
+}
+
+.wirelessCharger-footer {
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.wirelessCharger-footer p {
+    font-size: 10px;
+}
+
+.wirelessCharger__image{
+    width: 100%;
+    margin: 4% 0;
+}
+
+.yellow-text {
+    color: #ffa200;
+    font-size: 15px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.row-spacing {
+    margin: 5% 0;
+}
+
+.bottom-spacing {
+    margin-bottom: 3%;
+}
+
+.bulb-icon {
+    margin-right: 3%;
+}
+
+.haedal-talk {
+    display: flex;
+    margin-bottom: 5%;
+    font-size: 13px;
+}
+
+.haedal-talk img, .haedal-tip img{
+    margin-right: 2%;
+    height: 16px;
+}
+
+.haedal-tip {
+    display: flex;
+    margin-bottom: 80%;
+    color: #959595;
+}
