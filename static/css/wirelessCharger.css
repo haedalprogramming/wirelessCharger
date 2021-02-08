@@ -14,10 +14,12 @@
 }
 
 body {
-    max-width: 768px;
+    max-width: 500px;
     width: 100vw;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    color: #1e0600;
 }
 
 p {
@@ -25,14 +27,14 @@ p {
 }
 
 .wirelessCharger-wrap {
-    width: 95%;
+    width: 90%;
 }
 
 .wirelessCharger-progress-bar {
     position: fixed;
     top: 0;
-    width: 95%;
-    height: 11.33%;
+    width: 90%;
+    height: 91px;
     margin: 0 auto;
     background: #fff;
     z-index: 1;
@@ -41,7 +43,7 @@ p {
 .progress-bar-container {
     width: 90.6%;
     height: 8px;
-    margin: 18.2% auto 5.9%;
+    margin: 61px auto 20px;
     background: #e6e6e6;
 }
 
@@ -86,26 +88,33 @@ p {
 }
 
 .wirelessCharger-section {
-    /* margin-bottom: 55.11%; */
-    margin-bottom: 25%;
+    margin-bottom: 48.11%;
+    text-align: center;
 }
 
 .wirelessCharger-subsection {
     margin-top: 16%;
+    text-align: left;
 }
 
 .wirelessCharger-subsection h3 {
+    display: flex;
     margin-bottom: 5%;
 }
 
 .wirelessCharger-subsection ul, ol {
     margin: 3% 7% 0;
-    /* color: red; */
+    text-align: left;
+}
+
+li::marker{
+    color: #ff9900;
 }
 
 .wirelessCharger-title {
+    display: inline-block;
     margin-bottom: 10.6%;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
     position: relative;
 }
@@ -125,12 +134,18 @@ p {
     margin: 3% 1%;
     color: #1e0600;
     font-size: 14px;
+    text-align: left;
 }
 
 .wirelessCharger-figures {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40%;
+}
+
+.wirelessCharger-figures a {
+    text-decoration: none;
+    color: #1e0600;
 }
 
 .wirelessCharger-figures figcaption {
@@ -152,6 +167,12 @@ p {
     margin: 4% 0;
 }
 
+.wirelessCharger__image__s{
+    display: block;
+    width: 60%;
+    margin: 4% auto;
+}
+
 .yellow-text {
     color: #ffa200;
     font-size: 15px;
@@ -169,14 +190,20 @@ p {
     margin-bottom: 3%;
 }
 
+.bottom-spacing__large {
+    margin-bottom: 6%;
+}
+
 .bulb-icon {
     margin-right: 3%;
+    height: 20px;
 }
 
 .haedal-talk {
     display: flex;
     margin-bottom: 5%;
     font-size: 13px;
+    text-align: left;
 }
 
 .haedal-talk img, .haedal-tip img{
@@ -188,4 +215,35 @@ p {
     display: flex;
     margin-bottom: 80%;
     color: #959595;
+}
+
+@media screen and (min-width: 768px) {
+    .wirelessCharger-logo {
+        margin: 30% auto 6%;
+    }
+
+    .wirelessCharger__image__s{
+        width: 40%;
+    }
+
+    .wirelessCharger__image{
+        width: 100%;
+        margin: 2% 0;
+    }
+    
+    .wirelessCharger__image__s{
+        display: block;
+        width: 60%;
+        margin: 2% auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .wirelessCharger-title {
+        font-size: 6vw;
+    }
 }

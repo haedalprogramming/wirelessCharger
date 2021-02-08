@@ -1,4 +1,6 @@
-window.onscroll = function() {scrollIndicator()};
+// window.onscroll = function() {scrollIndicator()};
+
+window.addEventListener('scroll', scrollIndicator)
 
 function scrollIndicator() {
   let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
