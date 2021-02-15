@@ -98,7 +98,7 @@ p {
 }
 
 .wirelessCharger-subsection h3 {
-    height: 18px;
+    display: flex;
     font-size: 20px;
     margin-bottom: 5%;
 }
